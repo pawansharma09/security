@@ -1,0 +1,9 @@
+streamlit
+langchain
+langchain-community
+langchain-core
+faiss-cpu
+sentence-transformers
+faker
+google-generativeai
+python-dotenv
