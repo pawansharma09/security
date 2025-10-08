@@ -6,3 +6,5 @@ langchain-core
 faiss-cpu
 sentence-transformers
 langchain-google-genai
+pypdf
+python-docx
