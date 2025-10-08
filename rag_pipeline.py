@@ -51,7 +51,7 @@ def build_rag_pipeline(_log_content, google_api_key):
     )
 
     # Initialize the LLM with a free-tier model
-    llm = ChatGoogleGenerativeAI(model="gemini-1.0-pro", google_api_key=google_api_key,
+    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", google_api_key=google_api_key,
                                  temperature=0.1, convert_system_message_to_human=True)
 
     # Create the RetrievalQA chain
